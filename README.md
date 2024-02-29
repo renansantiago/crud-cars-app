@@ -12,17 +12,17 @@ This project is using [Typescript](https://reactnative.dev/docs/typescript) as t
 Running the App
 ---------------
 1. Make sure you have the environment [properly set up](https://reactnative.dev/docs/environment-setup) to run the application.
-2. Clone the repository and run in the terminal: ```npm install``` ou ```yarn```
+2. Clone the repository and run in the terminal: ```npm install``` or ```yarn```
 3. Open the iOS folder and run in the terminal:  ```pod install``` (iOS only)
 4. To run the app in the terminal:
 
 ### iOS (Simulator)
-```npm run ios``` ou ```yarn ios```
+```npm run ios``` or ```yarn ios```
 ### iOS (Device)
-```npm run ios --device``` ou ```yarn ios --device```
+```npm run ios --device``` or ```yarn ios --device```
 
 ### Android (Simulator or Device)
-```npm run android``` ou ```yarn android```
+```npm run android``` or ```yarn android```
 
 Note: on Android simulator the host as "localhost" don't work so in order to make the local GraphQL connection to work on Android simulators you need to change the IP address in apolloClient.ts file to be your local address.
 
