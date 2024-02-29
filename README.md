@@ -2,6 +2,8 @@
 
 This is a test project using React Native to simulate a CRUD of cars and some cool RN functionality.
 
+The app connects to a NestJS [API](https://github.com/renansantiago/crud-cars-api) to handle cars CRUD. Follow its README to setup it locally in order to make the app to work.
+
 This project is using [Typescript](https://reactnative.dev/docs/typescript) as the main language, 
 [Apollo GraphQL](https://www.apollographql.com/docs/react/integrations/react-native/) for API connection,
 [Formik](https://formik.org/docs/guides/react-native) to handle the car creation and update form,
@@ -33,3 +35,7 @@ Running the app on an iPhone may require additional [configuration](https://reac
 TODO
 ---------------
 Most of the requirements were added, specially the ones related to functionality/animations but using only 3 fields to make it faster.
+
+## Demo
+https://github.com/renansantiago/crud-cars-app/assets/17755517/51798ec8-a03f-40f4-a37a-51cea53a3d8d
+
